@@ -1,0 +1,15 @@
+import math
+
+angulo = float(input("Digite o ângulo em graus: "))
+
+# Converte o ângulo de graus para radianos
+angulo_radianos = math.radians(angulo)
+
+# Calcula o seno, cosseno e tangente
+seno = math.sin(angulo_radianos)
+cosseno = math.cos(angulo_radianos)
+tangente = math.tan(angulo_radianos)
+
+print(f"O seno de {angulo} graus é: {seno}")
+print(f"O cosseno de {angulo} graus é: {cosseno}")
+print(f"A tangente de {angulo} graus é: {tangente}")
